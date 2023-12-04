@@ -1,47 +1,84 @@
-body {
-    font-family: 'Arial', sans-serif;
+/* CSS untuk Navbar */
+nav {
+    background-color: #333;
+    padding: 8px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
-header {
-    background-color: #333;
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
     color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-h2 {
-    text-align: center;
-    color: #333;
-}
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Efek transisi untuk perubahan warna */
 }
 
-article {
-    text-align: justify;
-    margin-bottom: 20px;
+nav a:hover {
+    color: #ffcc00;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+/* Efek saat tombol di klik */
+nav a:active {
+    color: #ff9900; /* Ganti warna sesuai kebutuhan */
+    background-color: #555;
 }
 
-footer .love-logo {
-    font-size: 20px;
-    color: red;
-}
 
-img.responsive {
-    max-width: 100%;
-    height: auto;
-}
+body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    article {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer .love-logo {
+        font-size: 20px;
+        color: red;
+    }
+
+    img.responsive {
+        max-width: 100%;
+        height: auto;
+    }
