@@ -5,11 +5,14 @@ nav {
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
+.navbar ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Menjadikan menu turun ke bawah */
+  }
 
 nav li {
     display: inline;
@@ -32,6 +35,10 @@ nav a:hover {
 nav a:active {
     color: #ff9900; /* Ganti warna sesuai kebutuhan */
     background-color: #555;
+}
+
+header h2 {
+    color: #fff; /* Tambahkan properti warna untuk elemen h2 */
 }
 
 
@@ -65,6 +72,20 @@ body {
         text-align: justify;
         margin-bottom: 20px;
     }
+
+        /* CSS untuk memberi gaya pada paragraf dalam artikel */
+    article p {
+    margin-bottom: 10px; /* Jarak antar paragraf */
+    line-height: 1.5; /* Tinggi baris untuk meningkatkan kejelasan */
+    color: #333; /* Warna teks */
+    text-indent: 20px; /* Efek menjorok untuk awal kalimat */   
+    }
+
+        /* Gaya khusus untuk paragraf pertama */
+    article p:first-child {
+    font-weight: bold; /* Teks paragraf pertama menjadi tebal */    
+    }   
+
 
     footer {
         background-color: #333;
